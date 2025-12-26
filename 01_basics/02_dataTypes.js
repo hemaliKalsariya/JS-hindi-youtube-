@@ -24,3 +24,5 @@ let age = "20"
 // object
 
 console.log(typeof "51518");
+console.log(typeof "sujal");
+

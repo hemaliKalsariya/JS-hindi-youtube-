@@ -10,6 +10,12 @@ because of issue in block scope and functional scope
 */
 
 
+accounEmail = "151515"
+accountPassword = "0707"
+accountCity = "surat"
 
 
+console.log([accountId, accounEmail, accountPassword, accountCity]);
 
+
+console.table([accountId, accounEmail, accountPassword, accountCity])

@@ -16,6 +16,7 @@ console.log(typeof scoreValue);
 const isLoggedIn = false
 console.log(typeof isLoggedIn);
 //boolean
+
 const SingIn = true
 console.log(typeof SingIn);
 //boolean
@@ -38,8 +39,6 @@ const anotherId = Symbol('123')
 console.log(typeof anotherId);
 //symbol
 
-//console.log(score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId);
-//console.log(typeof score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId)
 
 
 const myfunction = function  () {

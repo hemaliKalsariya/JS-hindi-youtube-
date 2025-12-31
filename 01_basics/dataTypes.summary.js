@@ -7,19 +7,44 @@
 // Array, Objects, Functions
 
 const score = 100
+//number
+
 const scoreValue = 120.4
+console.log(typeof scoreValue);
+//number
 
 const isLoggedIn = false
-const outsideTemp = null
+console.log(typeof isLoggedIn);
+//boolean
+const SingIn = true
+console.log(typeof SingIn);
+//boolean
+
+let outsideTemp = null
+console.log(typeof outsideTemp);
+//object
+
+
 let userEmail;
+console.log(typeof userEmail);
+//undefined
+
 
 const id = Symbol('123')
+console.log(typeof id);
+//symbol//
+
 const anotherId = Symbol('123')
-console.log(score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId );
+console.log(typeof anotherId);
+//symbol
+
+//console.log(score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId);
+//console.log(typeof score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId)
 
 
 const myfunction = function  () {
     console.log("hello world");
     
 }
+
 

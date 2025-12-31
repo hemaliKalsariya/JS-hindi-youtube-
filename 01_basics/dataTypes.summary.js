@@ -46,4 +46,14 @@ const myfunction = function  () {
     
 }
 
+//********************************************************************* */
+
+//Stack(primitive), Heap(Non-primitive)
+
+let myYoutubname = "kalsariya"
+let anothername = myYoutubname
+anothername = "hemali"
+console.log(anothername);
+
+console.log(myYoutubname);
 

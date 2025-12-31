@@ -1,6 +1,6 @@
 let score = "true"
 
-//console.log(typeof score);
+console.log(typeof score);
 //console.log(typeof (score));
 
 let valueInNumber = Number(score)   
@@ -38,6 +38,14 @@ let value = 3
 let nagValue = -value
 console.log(nagValue);
 
+
+console.log(+ true);
+console.log(-false);
+console.log(typeof "");
+
+
+
+
 let str1 = "Hallo"
 let str2 = "  ms."
 let str3 =  "  Kalsariya"
@@ -51,5 +59,5 @@ console.log("1"+ 2 + 3 );
 console.log(1+ 2 + "3" );
 
 
-console.log(+true);
+
 

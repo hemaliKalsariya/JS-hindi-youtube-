@@ -15,8 +15,8 @@ const all_new_heros = [...marvel_heros,...dc_heros]
 console.log(all_new_heros);
 
 
-const another_arrey = [1, 2, 3, [4, 5]   [6, 7, [4, 5]] ] 
-const myanothr_arrey = another_arrey.flat(Infinity)
+let  another_arrey = [1, 2, 3, 4, 5, 6, 7, 8  ] 
+let myanothr_arrey = another_arrey.flat(Infinity)
 console.log(myanothr_arrey);
 
 console.log(Array.isArray("Hemali"));

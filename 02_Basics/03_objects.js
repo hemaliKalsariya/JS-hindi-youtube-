@@ -7,7 +7,7 @@ const mysym = Symbol("key1")
 
 const Jsuser ={
     name: "Hemali",
-    [mysym]: "mykey1",
+   // [mysym]: "mykey1",
     age: 21,
     location: "Surat",
     email: "hemali@gamail.com",
@@ -16,7 +16,7 @@ const Jsuser ={
 }
 
 // console.log(Jsuser.name);
-// console.log(Jsuser[mysym]);//symbols
+ console.log(typeof mysym);//symbols
 // console.log(Jsuser.age);
 // console.log(Jsuser.location);
 // console.log(Jsuser.email);
@@ -27,7 +27,7 @@ const Jsuser ={
 // Jsuser.email = "kalsariya@gmail.com"
 // console.log(Jsuser);
 
-
+``
 Jsuser.greeting = function(){
     console.log("Hello JS user");
 }

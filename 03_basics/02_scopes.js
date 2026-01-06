@@ -15,7 +15,8 @@ function one(){
     function two(){
         const website = "youtube"
         console.log(username);
-       
+        console.log(website);
+
     }
         // console.log(website);
 
@@ -23,7 +24,7 @@ function one(){
                  
 }
 
-//  one()
+ one()
 
 if (true){
     const username = "Hemali"

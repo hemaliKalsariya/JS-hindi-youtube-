@@ -26,9 +26,9 @@ newmap.set('IN', "India")
 newmap.set('USA', "United States")
 newmap.set('Fr', "Farance")
 
-// console.log(newmap);
+ console.log(newmap);
  for (const [key, value] of newmap) {
-    // console.log(key, ':-', value);
+     console.log(key, ':-', value);
     
 }
 
@@ -40,5 +40,5 @@ const myObject = {
 }
 
 for (const [key, value] of Object.entries(myObject)) {
-    console.log(key, '=', value);
+    // console.log(key, '=', value);
 }

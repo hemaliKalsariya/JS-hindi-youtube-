@@ -33,7 +33,7 @@ buttons.forEach(function (button) {
 
 ```
 
-Project 2
+## Project 2
 ```javascript
 const form = document.querySelector('form');
 // this usecase will  give you empty

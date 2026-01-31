@@ -19,9 +19,9 @@
    </div>
 </body>
 <script>
-    // document.getElementById('owl').onclick = function() {
-    //     alert("You clicked on Owl image");
-    // };
+    document.getElementById('owl').onclick = function() {
+        // alert("You clicked on Owl image");
+    };
 
     //attachEvent()   is used in older versions of IE
     //jQuery  .on()   is used in jQuery library
@@ -33,12 +33,39 @@
 
     
 
-    document.getElementById('owl').addEventListener('click', function(e){
-      console.log(e);
+    // document.getElementById('images').addEventListener('click', function(e){
+    //   console.log("clicked inside ul");
       
-    }, false )
+    // }, false )
    
-      
+
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //   console.log("owl clicked");
+    //   e.stopPropagation(); // stop the event from bubbling up
+    // }, false )
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     alert("You clicked on Google link");
+    //   e.preventDefault(); // prevent the default action of the link
+    //   e.stopPropagation();
+    //   console.log("default action prevented");
+    // }, false )
    
+      document.querySelector('#images').addEventListener('click', function(e){
+        // console.log(e);
+        // console.log(e.target);
+        // console.log(e.target.parentNode);
+        console.log(e.target.tagName);
+        if(e.target.tagName !== 'IMG'){
+            console.log(e.target.id);
+        let removeIt = e.target.parentNode;
+        removeIt.remove();
+        }
+       
+        // removeIt.parentNode.removeChild(removeIt);
+
+        
+      } )
+
 </script>
 </html>

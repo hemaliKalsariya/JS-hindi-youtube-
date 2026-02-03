@@ -6,29 +6,47 @@
     <title>Document</title>
 </head>
 <body style="background-color: rgb(113, 102, 102); color: beige;" >
-    0	UNSENT	Client has been created. open() not called yet.
+    <!-- 0	UNSENT	Client has been created. open() not called yet.
     1	OPENED	open() has been called.
     2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
     3	LOADING	Downloading; responseText holds partial data.
-    4	DONE	The operation is complete.
+    4	DONE	The operation is complete. -->
 <br>
-</br>
-    <button onclick="startRequest()">start</button>
-    followers: <span id="followers">20</span>
-</body>
-<script>
-    const request = 'https://api.github.com/users/octocat/followers'
-   const xhr = new XMLHttpRequest()
-   xhr.open('GET', request)
-    xhr.onreadystatechange = function() {
-         console.log(xhr.readyState);
-         if (xhr.readyState === 4) {
-              console.log(xhr.responseText);
 
-         }
+    <button style="font-size: 30px;" onclick="showPhoto()">Photo Dekhado  </button>
+    <button style="font-size: 30px;" onclick="showPhoto()">Photo cut  </button>
+<br>
+<br>
+    <img id="myPhoto" style="width: 500px; display: none;" src="https://images.pexels.com/photos/32228895/pexels-photo-32228895.jpeg" alt="my Photo">
+<script>
+    function showPhoto(){
+        document.getElementById("myPhoto").style.display = "block"
     }
-   console.log(xhr.readyState);
    
-   xhr.send()
+
+
+
+
+
+
+//     const request = 'https://api.github.com/users/octocat/followers'
+//    const xhr = new XMLHttpRequest()
+//    xhr.open('GET', request)
+//     xhr.onreadystatechange = function() {
+//          console.log(xhr.readyState);
+//          if (xhr.readyState === 4) {
+//               console.log(xhr.responseText);
+
+//          }
+//     }
+//    console.log(xhr.readyState);
+   
+//    xhr.send()
+
+
+
+// onclick = startRequest;
+
+    
 </script>
 </html>

@@ -83,7 +83,11 @@ consumePromiseFive();
 //     const data = await response.json();
 //     console.log(data);
 // }
+
 // getAllUsers();
+
+
+
 
 fetch('https://jsonplaceholder.typicode.com/users')
 .then((response) => {

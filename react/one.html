@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html review = "lendenclub" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <h1 style="background-color: black; padding: 50px; color: white; text-align: center; font-size: 35px;">My Resume</h1>
+
+    <img src="https://images.pexels.com/users/avatars/2158048694/hemali-kalsariya-289.jpeg?auto=compress&fit=crop&h=140&w=140&dpr=1" alt="photo" style="margin-left: 80%; margin-top: 20px;display: block;" width="200" height="200">
+
+    <h2 style="margin-left: 20px;font-size: 30px;">Personal Information</h2>
+    <ul style="margin-left: 50px; font-size: 20px;">
+        <li>Name:    Hemali M.Kalsariya</li>
+        <li>Email:   hemukalsariya7705@gmail.com</li>
+        <li>Phone:   +91 9274916821</li>
+        <li>Address: Surat, Gujarat</li>
+    </ul>
+        <h2 style="margin-left: 20px;font-size: 30px;">Education</h2>
+        <ul style="margin-left: 50px; font-size: 20px;">
+            <li>Bachelor of Commerce (B.com) : Shree Saurabh Arts Commerce & BCA College (Bhakta Kavi Narsinh Mehta University – Junagadh) (2022-2025) </li>
+            <li>Higher Secondary School : Gyanjyot Vidyalaya (Gujarat Borad) (2021-2022)</li>
+            <li>Secondary School : Gyanjyot Vidyalaya (Gujarat Borad) (2019-2020)</li>
+        </ul>
+        <h2 style="margin-left: 20px;font-size: 30px;"> Technical Skills</h2>
+        <ul style="margin-left: 50px; font-size: 20px;">
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>React</li> 
+            <li> Basic Computer knowledge</li>
+        </ul>   
+        <h2 style="margin-left: 20px;font-size: 30px;">Experience</h2>      
+        <ul style="margin-left: 50px; font-size: 20px;">
+            <li> Fresher</li>  
+        </ul>
+        <h2 style="margin-left: 20px;font-size: 30px;">Projects</h2>
+        <ul style="margin-left: 50px; font-size: 20px;">
+            <li>Project 1: Resume Builder (React)</li>
+        </ul>
+
+       <h2 style="margin-left: 20px;font-size: 30px;">Strengths</h2>
+       <ul style="margin-left: 50px; font-size: 20px;">
+        <li>Quick Learner</li>
+        <li>Problem-solving skills</li>
+        <li>Teamwork</li>
+        <li>Consistent practice</li>
+       </ul>
+         <h2 style="margin-left: 20px;font-size: 30px;">Languages Known</h2>
+         <ul style="margin-left: 50px; font-size: 20px;">
+            <li>English</li>
+            <li>Gujarati</li>
+            <li>Hindi</li>
+         </ul>
+            <h2 style="margin-left: 20px;font-size: 30px;">Hobbies</h2> 
+            <ul style="margin-left: 50px; font-size: 20px;">
+                <li>Hard Work</li>
+                <li>Reading Books</li>
+                
+   <script>
+    const doc = new jsPDF("l", "mm", "a4");
+    const elementHTML = document.querySelector("body");
+    const margins = { top: 10, bottom: 10, left: 10, width: 190 };  
+    doc.html(elementHTML, {
+      callback: function (doc) {
+        doc.save("resume.pdf");
+      },
+      x: margins.left,
+      y: margins.top,
+      width: margins.width,
+      windowWidth: 650
+    });
+    html()
+   </script>
+</body>
+</html>
